@@ -12,7 +12,18 @@
 
 * Markdown 应用程序使用一种称为 Markdown 处理器（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。
 
-![31107207941AF6C2682D1480B2CED779](../31107207941AF6C2682D1480B2CED779.jpg)
+![31107207941AF6C2682D1480B2CED779](../31107207941AF6C2682D1480B2CED779.jpg)、
+
+* 文字具体过程描述
+
+  1. 创建.md扩展名文件
+  2. 在Markdown应用程序中打开文件
+  3. Markdown应用程序中的Markdown处理器将文件处理，转换成HTML或pdf等
+  4. 在Web浏览器或其他应用程序中查看Markdown处理器
+
+* 应用
+
+  网站创建、文档编辑...
 
 ## 基础知识
 
@@ -172,22 +183,24 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 
 ### 一些发现
 
-1. 主题显示好高级
+#### 1.主题显示就有一种高级感
 
-   ![](Markdown.assets/image-20221101134605466.png)
+![](Markdown.assets/image-20221101134605466.png)
 
-   ![image-20221101134653034](Markdown.assets/image-20221101134653034.png)
+![image-20221101134653034](Markdown.assets/image-20221101134653034.png)
 
-   + 个人感觉这个界面最舒服
++ 个人感觉这个主题界面最舒服
 
-   ![image-20221101134741656](Markdown.assets/image-20221101134741656.png)
+![image-20221101134741656](Markdown.assets/image-20221101134741656.png)
 
-   2.浏览器？
+#### 2.浏览器？
 
-   ![image-20221101135320429](Markdown.assets/image-20221101135320429.png)
-   
-   3.源代码模式
-   
-   ![image-20221101135535222](Markdown.assets/image-20221101135535222.png)
-   
-   ## 
+![image-20221101135320429](Markdown.assets/image-20221101135320429.png)
+
+#### 3.源代码模式
+
+![image-20221101135535222](Markdown.assets/image-20221101135535222.png)
+
+## 
+
+#### ......
