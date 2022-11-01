@@ -56,7 +56,7 @@
 ```c
 int main()
 {
-    printf("Hello world!\n");
+    printf("Hello Geek!\n");
     return 0;
 }
 ```
