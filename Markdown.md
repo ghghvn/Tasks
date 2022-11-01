@@ -6,6 +6,14 @@
 
 后缀名：==.md==
 
+## 工作原理
+
+* Markdown 格式书写时，文本内容存储在带有 .md 或 .markdown 扩展名的纯文本文件中。简单来说，需要一个能够处理 Markdown 文件的 Markdown 应用程序。（有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。）
+
+* Markdown 应用程序使用一种称为 Markdown 处理器（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。
+
+![31107207941AF6C2682D1480B2CED779](../31107207941AF6C2682D1480B2CED779.jpg)
+
 ## 基础知识
 
 ### 标题
@@ -141,15 +149,26 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 
 ![image-20221101132422449](Markdown.assets/image-20221101132422449.png)
 
-图片保存——文档图片分离
+图片保存——文档与图片的分离
 
 ### 常用快捷键
 
-![A8924719F4CB223CC563478CC2BA37A7](Markdown.assets/A8924719F4CB223CC563478CC2BA37A7.jpg)
+| 快捷指令 |    快捷键    |   快捷指令   |    快捷键    |
+| :------: | :----------: | :----------: | :----------: |
+| 一级标题 |    Ctrl+1    |     段落     |    Ctrl+0    |
+| 二级标题 |    Ctrl+2    | 提升标题级别 |    Ctrl+=    |
+|  代码块  | Ctrl+shift+K | 降低标题级别 |    Ctrl+-    |
+|  公式块  | Ctrl+shift+M |     引用     | Ctrl+shift+Q |
+| 有序列表 | Ctrl+shift+[ |   偏好设置   |    Ctrl+,    |
+| 无序列表 | Ctrl+shift+] |   任务列表   | Ctrl+shift+X |
+
+
+
+
 
 ### 支持的html元素
 
-<kbd> <b> <i> <em> <sup> <sub> <br>
+<kbd> <b> <i> <em> <sup> <sub> <br>        等
 
 ### 一些发现
 
@@ -171,65 +190,4 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
    
    ![image-20221101135535222](Markdown.assets/image-20221101135535222.png)
    
-   
-   
-   
-   
-   
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
+   ## 
