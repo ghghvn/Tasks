@@ -9,5 +9,6 @@ This is the assessment of geek.
 # [Git](https://github.com/ghghvn/Tasks/blob/main/Git.md#git)
 ## [版本控制](https://github.com/ghghvn/Tasks/blob/main/Git.md#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
 ## [Git历史](https://github.com/ghghvn/Tasks/blob/main/Git.md#git%E5%8E%86%E5%8F%B2)
-## [Ght](https://github.com/ghghvn/Tasks/blob/main/Git.md#git%E7%9A%84%E7%89%88%E6%9C%AC%E5%9B%9E%E6%BB%9A)
+## [Git版本回滚](https://github.com/ghghvn/Tasks/blob/main/Git.md#git%E7%9A%84%E7%89%88%E6%9C%AC%E5%9B%9E%E6%BB%9A)
+## [Git基本理论-四个工作区域](https://github.com/ghghvn/Tasks/blob/main/Git.md#git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA-%E5%9B%9B%E4%B8%AA%E5%B7%A5%E4%BD%9C%E5%8C%BA%E5%9F%9F)
 ## 
