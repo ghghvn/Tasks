@@ -7,4 +7,5 @@ This is the assessment of geek.
 ### [基础知识](https://github.com/ghghvn/Tasks/blob/main/Markdown.md#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 ## [Typora探索](https://github.com/ghghvn/Tasks/blob/main/Markdown.md#typora%E6%8E%A2%E7%B4%A2)
 # [Git](https://github.com/ghghvn/Tasks/blob/main/Git.md#git)
+## [版本控制](https://github.com/ghghvn/Tasks/blob/main/Git.md#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
 ## [
