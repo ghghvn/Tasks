@@ -8,4 +8,5 @@ This is the assessment of geek.
 ## [Typora探索](https://github.com/ghghvn/Tasks/blob/main/Markdown.md#typora%E6%8E%A2%E7%B4%A2)
 # [Git](https://github.com/ghghvn/Tasks/blob/main/Git.md#git)
 ## [版本控制](https://github.com/ghghvn/Tasks/blob/main/Git.md#%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
+## [Git历史](https://github.com/ghghvn/Tasks/blob/main/Git.md#git%E5%8E%86%E5%8F%B2)
 ## [
