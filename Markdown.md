@@ -12,7 +12,7 @@
 
 * Markdown 应用程序使用一种称为 Markdown 处理器（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。
 
-![31107207941AF6C2682D1480B2CED779](../31107207941AF6C2682D1480B2CED779.jpg)、
+  ![7836BBF0CEF4C03450100EBC8FBC2AB3](Markdown.assets/7836BBF0CEF4C03450100EBC8FBC2AB3.jpg)
 
 * 文字具体过程描述
 
@@ -74,7 +74,11 @@ int main()
 
 三个` +代码语言
 
-### 数学公式
+### 数学公式 
+
+```markdown
+$$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
+```
 
 $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 
@@ -89,6 +93,10 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 ‘|’制作表格，|:-|左对齐，|：---|右对齐，|：-：|居中对齐
 
 ### 脚注
+
+```
+[^2]
+```
 
 []中加^和内容
 
@@ -108,7 +116,7 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 
 ### 链接
 
-[ 百度 ](baidu.com"标题“)
+[ 百度 ](baidu.com"标题")
 
 引用链接
 
@@ -160,7 +168,7 @@ $$\frac{\partial f }{\partial x}=2\sqrt{a}x$$
 
 ![image-20221101132422449](Markdown.assets/image-20221101132422449.png)
 
-图片保存——文档与图片的分离
+图片保存——文档与图片的分离，这样可以方便将文件一起上传到Github，解决本地图片显示不了的问题，此外，还可以将图片上传到网上，比如QQ空间，这样，就可以直接设置图像链接来显示。
 
 ### 常用快捷键
 
