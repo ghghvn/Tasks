@@ -1,0 +1,713 @@
+<DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" cotent="ie=edge">
+    <title>QQ音乐</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width:1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.head>.bottom {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+}
+
+.menu {
+    display: inline-block;
+    width: 480px;
+}
+
+.head ul {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    width: 80px;
+    height: 50px;
+    padding: 3px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+    background-color: #31c37c;
+    color: #fcf9f2;
+    cursor: pointer;
+}
+
+.menu ul li:active {
+    opacity: 0.7;
+}
+
+.search {
+    display: inline-block;
+}
+
+.search .bottom {
+    color:#a2a9af;
+}
+
+.login {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.vip {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fafafa;
+    background-color: #31c37c;
+    border-radius: 5%;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.pay {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fafafa;
+    border-radius: 5%;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.login:hover,.vip:hover,.pay:hover {
+    cursor: pointer;
+}
+
+.head1 {
+    width:1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu1 {
+    display: inline-block;
+    height:50px;
+    width: 900px;
+}
+
+.head1 ul {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.menu1 ul li {
+    display: inline-block;
+    list-style: none;
+    width: 80px;
+    height: 50px;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu1 ul li:hover {
+    color: #31c37c;
+}
+
+.section1 {
+    margin: 0 auto; 
+    background-color: #f6f6f6;
+    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
+}
+
+.head2 {
+    width:400px;
+    margin: 0 auto;
+}
+
+.head2 ul {
+    justify-content: space-between;
+}
+
+.head2 ul li {
+    list-style: none;
+    height: 70px;
+    padding: 3px;
+    font-size: 30px;
+    color:#343434;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.menu2 {
+    height:50px;
+    text-align: center;
+}
+
+.menu2 ul li {
+    display: inline-block;
+    list-style: none;
+    width: 80px;
+    height: 50px;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu2 ul li:hover {
+    color: #31c37c;
+}
+
+.box1 {
+    margin: 0 auto;
+    text-align: center;
+    height:400px;
+}
+
+.box11 {
+    display: inline-block;
+    width:210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.box11 img{
+    width: 100%;
+
+}
+
+
+
+.broadcast1 {
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.review1:hover {
+    color: #31c37c;
+}
+
+.box12 {
+    display: inline-block;
+    width:210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.box12 img{
+    width: 100%;
+}
+
+.review2 {
+    margin-top:10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.broadcast2 {
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.review2:hover {
+    color: #31c37c;
+}
+
+.box13 {
+    display: inline-block;
+    width:210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.box13 img{
+    width: 100%;
+}
+
+.review3 {
+    margin-top:10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.broadcast3 {
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.review3:hover {
+    color: #31c37c;
+}
+
+.box14 {
+    display: inline-block;
+    width:210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.box14 img{
+    width: 100%;
+}
+
+.review4 {
+    margin-top:10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.broadcast4 {
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.review4:hover {
+    color: #31c37c;
+}
+
+.box15 {
+    display: inline-block;
+    width:210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.box15 img{
+    width: 100%;
+}
+
+.review5 {
+    margin-top:10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.broadcast5 {
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.review5:hover {
+    color: #31c37c;
+}
+
+.section2 {
+    margin: 0 auto; 
+    background-color: #f6f6f6;
+    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
+}
+
+.head3 {
+    width:400px;
+    margin: 0 auto;
+}
+
+.head3 ul {
+    justify-content: space-between;
+}
+
+.head3 ul li {
+    list-style: none;
+    height: 70px;
+    padding: 3px;
+    font-size: 30px;
+    color:#343434;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.menu3 {
+    height:50px;
+    text-align: center;
+}
+
+.menu3 ul li {
+    display: inline-block;
+    list-style: none;
+    width: 80px;
+    height: 50px;
+    padding: 3px;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu3 ul li:hover {
+    color: #31c37c;
+}
+
+.box2 {
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+
+.box21 {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.box21 img {
+    float: left;
+    height: 100%;
+}
+
+.content1 {
+    float: left;
+    width: 300px;
+}
+
+.song1 {
+    width:80px;
+    font-display: block;
+    margin-top: 10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.singer1 {  
+    width:70px;
+    margin-top:10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.song1:hover {
+    color: #31c37c;
+}
+
+.time1 {
+    float: right;
+    margin-top:5px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.box22 {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.box22 img {
+    float: left;
+    height: 100%;
+}
+
+.content2 {
+    float: left;
+    width:300px;
+}
+
+.song2 {
+    width:80px;
+    font-display: block;
+    margin-top: 10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.singer2 {
+    width:70px;
+    margin-top:10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.song2:hover {
+    color: #31c37c;
+}
+
+.time2 {
+    float: right;
+    margin-top:5px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.box23 {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.box23 img {
+    float: left;
+    height: 100%;
+}
+
+.content3 {
+    float: left;
+    width: 300px;
+}
+
+.song3 {
+    width:80px;
+    font-display: block;
+    margin-top: 10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.singer3 { 
+    width:50px;
+    margin-top:10px;
+    padding-right: 10px;
+    height: 25px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+.song3:hover {
+    color: #31c37c;
+}
+
+.time3 {
+    float: right;
+    margin-top:5px;
+    font-size: 13px;
+    color: #a3a2a0;
+}
+
+
+.error {
+    height: 150px;
+}
+.section3 {
+    margin: 0 auto; 
+    background-color: #f6f6f6;
+    background: -webkit-linear-gradient(top,#f6f6f6, #ffffff);
+}
+
+.box3 {
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+}
+
+.box31 {
+    display: inline-block;
+    width: 500px;
+    margin: 10px 10px;
+}
+
+.box31 img {
+    width: 100%;
+}
+
+.box32 {
+    display: inline-block;
+    width: 500px;
+    margin: 10px 10px;
+}
+
+.box32 img {
+    width: 100%;
+}
+
+.box4 {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.box4 img {
+    width: 100%;
+}
+
+
+
+    </style>
+ </head>
+ <body>
+    <!--头部菜单-->
+    <div class="head">
+        <a herf="https://y.qq.com/" target="_blank">
+            <img class="logo" src="images/logo.png" alt="">
+        </a>
+        <div class="menu">
+            <ul>
+                <li>音乐馆</li>
+                <li>我的音乐</li>
+                <li>客户端</li>
+                <li>开放平台</li>
+                <li>VIP</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="bottom" type="t" value="王源新歌">
+            <span class="login">
+                <a herf="#">登录</a>
+            </span>
+        </div>
+        <span class="vip">开通VIP</span>
+        <span class="pay">充值</span>
+    </div>
+    <div class="head1">
+        <div class="menu1">
+            <ul>
+                <li>首页</li>
+                <li>歌手</li>
+                <li>新碟</li>
+                <li>排行榜</li>
+                <li>分类歌单</li>
+                <li>电台</li>
+                <li>MV</li>
+                <li>数字专辑</li>
+            </ul>
+        </div>
+    </div>
+    <!--歌单推荐-->
+    <div class="section1">
+        <div class="head2">
+            <ul>
+                <li><strong>歌 单 推 荐</strong></li>
+            </ul>
+        </div>
+        <div class="menu2">
+            <ul>
+                <li>为你推荐</li>
+                <li>短视频热歌</li>
+                <li>节奏控</li>
+                <li>经典</li>
+                <li>官方歌单</li>
+                <li>情歌</li>
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="box11">
+                <img class="p1" src="images/p1.webp" alt="">
+                <p class="review1">音乐封神现场：顶级编唱震撼人心</p>
+                <p class="broadcast1">播放量：1699.7万</p>
+            </div>
+            <div class="box12">
+                <img class="p2" src="images/p2.webp" alt="">
+                <p class="review2">深夜我又想起你，泪水打湿了枕头</p>
+                <p class="broadcast2">播放量：4589.7万</p>
+            </div>
+            <div class="box13">
+                <img class="p3" src="images/p3.webp" alt="">
+                <p class="review3">工作之余，让我们安静下来</p>
+                <p class="broadcast3">播放量：33.8万</p>
+            </div>
+            <div class="box14">
+                <img class="p4" src="images/p4.webp" alt="">
+                <p class="review4">房间一隅，有我安静的心跳声</p>
+                <p class="broadcast4">播放量：56.2万</p>
+            </div>
+            <div class="box15">
+                <img class="p5" src="images/p5.webp" alt="">
+                <p class="review5">500+车载KTV：不会也要跟着跳</p>
+                <span class="broadcast5">播放量：2290.3万</span>
+            </div>
+        </div>
+    </div>
+    <!--新歌首发-->
+    <div class="section2">
+        <div class="head3">
+            <ul>
+                <li><strong>新 歌 首 发</strong></li>
+            </ul>
+        </div>
+        <div class="menu3">
+            <ul>
+                <li>最新</li>
+                <li>内地</li>
+                <li>港台</li>
+                <li>欧美</li>
+                <li>韩国</li>
+                <li>日本</li>
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="box21">
+                <img class="b1" src="images/b1.webp" alt="">
+                <div class="content1">
+                    <div class="song1">恋爱动物</div>
+                    <div class="singer1">汪苏泷</div>
+                    <div class="time1">03:08</div>
+                </div>
+            </div>
+            <div class="box22">
+                <img class="p2" src="images/b2.webp" alt="">
+                <div class="content2">
+                   <div class="song2">炙热的梦</div>
+                   <div class="singer2">王一博</div>
+                   <div class="time2">03:45</div>
+                </div>
+            </div>
+            <div class="box23">
+                <img class="p3" src="images/b3.webp" alt="">
+                <div class="content3">
+                    <div class="song3">奔赴时间尽头的流萤</div>
+                    <div class="singer3">王源</div>
+                    <div class="time3">03:24</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="error"></div>
+
+    <!--精彩推荐-->
+    <div class="section3">
+        <div class="head3">
+            <ul>
+                <li><strong>精 彩 推 荐</strong></li>
+            </ul>
+        </div>
+        <div class="box3">
+            <div class="box31">
+                <img class="c1" src="images/c1.webp" alt="">
+            </div>
+            <div class="box32">
+                <img class="c2" src="images/c2.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--底部-->
+    <div class="box4">
+        <img class="bottom" src="images/bottom.png" alt="">
+    </div>
+
+ </body>
+</html>
+</DOCTYPE>
