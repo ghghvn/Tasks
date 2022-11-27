@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+position: fixed;
+text-align: center;
+height: 50px;
+width:1600px;
+margin: 0 45px;
+background-color: #ffb11f;
+opacity: 0.8;  /*透明度*/
+line-height: 50px;
+display: inline-block;
+font-size: 25px;
+color: #f1f8ff;
+border-radius: 10px;
+text-decoration: none;
+z-index: 2;   /*浮于最上面*/
+}
+
+.menu a {
+display: inline-block;
+padding: 0 80px;
+}
+
+.C {
+    color: #9e9c9a;
+}
+
+.C:hover {
+    color: #f1f8ff;
+}
+
+.menu a:hover {
+background-color:#ff9b67;
+color:#9e9c9a;
+border-radius: 20px;
+}
+
+.qq {
+height: 175px;
+width: 150px;
+border-color: #ffb11f;
+border-width: 3px;
+border-style: solid;
+border-radius: 5px;
+display: none;
+position: absolute;
+margin: 5px;
+}
+
+.A {
+position: relative;
+}
+
+/*声明图标字体-->*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?jqs1dk');
+    src:  url('../fonts/icomoon.eot?jqs1dk#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?jqs1dk') format('truetype'),
+      url('../fonts/icomoon.woff?jqs1dk') format('woff'),
+      url('../fonts/icomoon.svg?jqs1dk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+
+.A::after {
+    content: '\f107';
+    font-family: 'icomoon';
+    padding: 0 5px;
+    }
+
+.A, .B, .C, .D, .E {
+    text-decoration: none;
+    color: #f1f8ff;
+}
+
+.B::after {
+    content: '\f2c0';
+    font-family: 'icomoon';
+    padding: 0 5px;
+    }
+
+.C::after {
+    content: '\e901';
+    font-family: 'icomoon';
+    padding: 0 5px;
+    }
+
+.D::after {
+    content: '\e942';
+    font-family: 'icomoon';
+    padding: 0 5px;
+    }
+        
+.E::after {
+    content: '\e96d';
+    font-family: 'icomoon';
+    padding: 0 5px;
+}
+
+.title2::after {
+    content: '\f095';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.title1::after {
+    content: '\f2bd';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.title3::after {
+    content: '\e96d';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.part2::after {
+    content: '\f107';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.qq_group::after {
+    content: '\f1d6';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.e-mail::after {
+    content: '\ea83';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.github::after {
+    content: '\eab0';
+    font-family: 'icomoon';
+    padding: 0 10px;
+}
+
+.A:hover .qq {
+display: block;
+}
+
+.qq img {
+width: 100%;
+}
+
+.error {
+height: 50px;
+}
+
+.header {
+background-image: url(../images/background_Homepage.png);
+background-size: 1700px 1280px;
+margin: 0 auto;
+height: 1280px;
+}
+
+.part1 {
+display: inline-block;
+margin: 90px 550px;
+height:300px;
+transition: all 0.4s;
+} 
+
+.part1:hover {
+    transform: scale(1.3);
+}
+
+.part1 img {
+height: 100%;
+}
+
+.box1 {
+background-image: url(../images/decoration_Transition.png);
+background-size: 1700px 200px;
+margin: o auto;
+height: 200px;
+}
+
+.part2 {
+color: #000891;
+font-size: 60px;
+font-weight: 700;
+text-align: center;
+}
+
+.box2 {
+width: 1300px;
+height: 500px;
+border-width: 4px;
+border-color: #808080;
+border-style: solid;
+margin: 50px 200px;
+text-align: center;
+border-radius: 40px;
+transition: all 0.4s;
+}
+
+/*盒子缩放*/
+.box2:hover {
+    transform: scale(1.1);
+}
+
+.font1 {
+float: left;
+width: 800px;
+}
+
+.content11 {
+font-size: 50px;
+color: #000000;
+font-weight: 700;
+margin: 30px 55px;
+text-align: left;
+}
+
+.content12 {
+font-size: 40px;
+color: #6198f4;
+font-weight: 700;
+margin: 30px 40px;
+text-align: left;
+}
+
+.content13 {
+font-size: 25px;
+color: #0c0603;
+margin: 30px 20px;
+text-align: left;
+}
+
+.content14 {
+font-size: 25px;
+color: #0c0603;
+margin: 30px 20px;
+text-align: left;
+}
+
+.image1 img{
+width: 350px;
+padding: 40px 20px 40px;
+transition: all 0.4s;  
+}
+
+/*图片旋转*/
+.programmer:hover {
+    transform: rotateZ(-20deg);
+}
+
+.box3 {
+width: 1300px;
+height: 500px;
+border-width: 4px;
+border-color: #808080;
+border-style: solid;
+margin: 50px 200px;
+text-align: center;
+border-radius: 40px;
+transition: all 0.4s;
+}
+
+.box3:hover {
+    transform: scale(1.1);
+}
+
+.font2 {
+float: right;
+width: 800px;
+}
+
+.content21 {
+font-size: 50px;
+color: #000000;
+font-weight: 700;
+margin: 30px 55px;
+text-align: left;
+}
+
+.content22 {
+font-size: 40px;
+color: #f892ee;
+font-weight: 700;
+margin: 30px 40px;
+text-align: left;
+}
+
+.content23 {
+font-size: 25px;
+color: #0c0603;
+margin: 30px 20px;
+text-align: left;
+}
+
+.image2 img{
+width: 350px;
+padding: 40px 20px 40px;
+transition: all 0.4s;
+}
+
+.pm:hover {
+    transform: rotateZ(20deg);
+}
+
+.box4 {
+width: 1300px;
+height: 500px;
+border-width: 4px;
+border-color: #808080;
+border-style: solid;
+margin: 50px 200px;
+text-align: center;
+border-radius: 40px;
+transition: all 0.4s;
+}
+
+.box4:hover {
+    transform: scale(1.1);
+}
+
+.font3 {
+float: left;
+width: 800px;
+}
+
+.content31 {
+font-size: 50px;
+color: #000000;
+font-weight: 700;
+margin: 30px 55px;
+text-align: left;
+}
+
+.content32 {
+font-size: 40px;
+color: #34d0c3;
+font-weight: 700;
+margin: 30px 40px;
+text-align: left;
+}
+
+.content33 {
+font-size: 25px;
+color: #0c0603;
+margin: 30px 20px;
+text-align: left;
+}
+
+.image3 img{
+width: 350px;
+padding: 40px 20px 40px;
+transition: all 0.4s;
+}
+
+.game:hover {
+    transform: rotateZ(-20deg);
+}
+
+.box5 {
+width: 1300px;
+height: 500px;
+border-width: 4px;
+border-color: #808080;
+border-style: solid;
+margin: 50px 200px;
+text-align: center;
+border-radius: 40px;
+transition: all 0.4s;
+}
+
+.box5:hover {
+    transform: scale(1.1);
+}
+
+.font4 {
+float: right;
+width: 800px;
+}
+
+.content41 {
+font-size: 50px;
+color: #000000;
+font-weight: 700;
+margin: 30px 55px;
+text-align: left;
+}
+
+.content42 {
+font-size: 40px;
+color: #ffbcc3;
+font-weight: 700;
+margin: 30px 40px;
+text-align: left;
+}
+
+.content43 {
+font-size: 25px;
+color: #0c0603;
+margin: 30px 20px;
+text-align: left;
+}
+
+.image4 img{
+width: 350px;
+padding: 40px 20px 40px;
+transition: all 0.4s;
+}
+
+.designer:hover {
+    transform: rotateZ(20deg);
+}
+
+.aboutus {
+    position: relative;
+width: 1400px;
+height: 700px;
+border-width: 8px;
+border-color: #818181;
+border-style: solid;
+margin: 100px 150px;
+text-align: center;
+border-radius: 40px;
+background: #fffdf5;
+z-index: 1;
+}
+
+/*沿Y轴对称*/
+.border1 img {
+    width: 250px;
+    height: 100px;
+	transform: rotateY(180deg);
+	position: absolute;
+	top:-3%;
+	left:-3%;
+	
+}
+
+.border2 img {
+    width: 250px;
+    height: 100px;
+	position: absolute;
+	top:-3%;
+	right:-3%;
+}
+
+/*旋转180度*/
+.border3 img {
+    width: 250px;
+    height: 100px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom:0%;
+	left:-3%;
+}
+
+/*沿x轴旋转180*/
+.border4 img {
+    width: 250px;
+    height: 100px;
+	transform:rotateX(180deg);
+	position: absolute;
+	bottom:0%;
+	right:-3%;
+}
+
+.beauty img {
+    width: 200px;
+    height: 250px;
+	position: absolute;
+	bottom:7%;
+	right: 3%;
+    transition: all 0.4s;
+}
+
+.beauty img:hover {
+    transform: translate(0, -15px); 
+}
+
+.beautyfont {
+    display: none;
+    background-color: #6095f4;
+    border-radius: 10px;
+    width:100px;
+    position: absolute;
+}
+
+/*未实现*/
+.beauty；havor .beautyfont{
+    display: block;
+}
+
+
+.title1 {
+font-size: 60px;
+color: #85847d;
+}
+
+.speech, .diversity, .time{
+display: inline-block;
+text-align: center;
+width: 160px;
+height: 350px;
+border-color: #861384;
+border-style: solid;
+border-width: 8px;
+padding: 20px;
+margin: 50px 50px;
+border-radius: 40px;
+transition: all 0.4s;
+}
+
+.speech:hover {
+    transform: scale(1.1);
+}
+
+.diversity:hover {
+    transform: scale(1.1);
+}
+
+.time:hover {
+    transform: scale(1.1);
+}
+
+.speech img {
+width: 60%;
+} 
+
+.diversity img {
+width: 60%;
+} 
+
+.time img {
+width:60%
+}
+
+.speechfont, .diversityfont, .timefont {
+font-size: 20px;
+margin: 40px 10px;
+}
+
+.contactus {
+    position:absolute;
+width: 1400px;
+height: 700px;
+border-width: 8px;
+border-color: #007c95;
+border-style: solid;
+margin: 60px 150px;
+text-align: center;
+border-radius: 40px;
+z-index: 1;
+}
+
+.contactus img {
+width:60px;
+height:45px;
+}
+
+ .tree1 img {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 500px;
+    top:-50px;
+}
+
+.tree4 img {
+    position: absolute;
+    left: -10px;
+    width: 100px;
+    height: 100px;
+    bottom: -15px;
+}
+
+ .tree2 img {
+    position: absolute;
+    right: -20px;
+    width: 200px;
+    height: 800px;
+    top:-20px;
+}
+
+.tree3 img {
+    position: absolute;
+    right: 120px;
+    width: 600px;
+    height: 350px;
+    bottom: -50px;
+}
+
+.title2 {
+margin: 30px 50px;
+display: inline-block;
+font-size: 60px;
+color: #374e52;
+}
+
+.contant1 {
+width: 800px;
+height: 350px;
+margin: 0 auto;
+}
+
+.inf1 {
+font-size: 30px;
+margin: 30px;
+text-align: left;
+}
+
+.inf2 {
+font-size:20px;
+color: #717982;
+margin: 30px;
+text-align: left;
+}
+
+.qq_group, .e-mail, .github {
+display: inline-block;
+width: 150px;
+height: 30px;
+border-radius: 15px;
+font-size: 18px;
+background-color: #1a7b1e;
+color: #f4faff;
+padding: 5px 0;
+margin: 20px;
+text-align: center;
+}
+
+.error1 {
+    height: 850px;
+}
+
+.question {
+position: relative;
+width: 1400px;
+height: auto;
+border-width: 8px;
+border-color: #6095f4;
+border-style: solid;
+margin: 100px 150px;
+text-align: center;
+border-radius: 40px;
+background-image: url(../images/background_QA.png);
+background-size: 1400px auto;
+}
+
+.contant2 {
+height: auto;
+padding-bottom: 150px;
+width:850px;
+text-align: left;
+margin: 0 auto;
+}
+
+.title3 {
+margin: 30px 50px;
+font-size: 60px;
+}
+
+.p {
+    width: 850px;
+    height: auto;
+    transition: all 0.4s;
+} 
+
+.p:hover {
+    transform: scale(1.1);
+}
+
+.q {   
+width: 850px;
+height: 50px;
+font-size: 25px;
+padding-bottom: 25px;
+}
+
+.q:hover {
+color: #728aa5;
+}
+
+.an {
+*position: absolute;
+display: none;
+border-radius: 10px;
+background-color: #78b1ea;
+color: #e8f6ff;
+font-size:20px;
+}
+
+/*.q:hover .an {
+display: block;
+}*/
+
+.bottom {
+    border-top: 1px solid #808080;
+    height:120px;
+    width: auto;
+    background-color: #f6f7f8;
+}
+
+.box0 {
+    text-align: center;
+    margin: 10px;
+}
