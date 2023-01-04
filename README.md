@@ -21,4 +21,8 @@ This is the assessment of geek.
 
 ## [复刻Geek官网](https://ghghvn.github.io)
 
-## [python]()
+## [python](https://github.com/ghghvn/Tasks/blob/main/python.md)
+#### [基础]()
+#### [面向对象]()
+#### [爬取网站资源]()
+#### [反爬机制]()
