@@ -25,4 +25,4 @@ This is the assessment of geek.
 #### [基础](https://github.com/ghghvn/Tasks/blob/main/python.md#pear%E5%9F%BA%E7%A1%80)
 #### [面向对象](https://github.com/ghghvn/Tasks/blob/main/python.md#pear%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E7%B1%BB%E6%AF%94c)
 #### [爬取网站资源](https://github.com/ghghvn/Tasks/blob/main/python.md#pear%E7%88%AC%E5%8F%96%E7%BD%91%E7%AB%99%E8%B5%84%E6%BA%90)
-#### [反爬机制]()
+#### [反爬机制](https://github.com/ghghvn/Tasks/blob/main/python.md#pear%E5%8F%8D%E7%88%AC%E6%9C%BA%E5%88%B6)
