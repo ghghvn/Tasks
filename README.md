@@ -28,3 +28,4 @@ This is the assessment of geek.
 #### [反爬机制](https://github.com/ghghvn/Tasks/blob/main/python.md#pear%E5%8F%8D%E7%88%AC%E6%9C%BA%E5%88%B6)
 
 # 阶段六
+###### 由于本人时间安排不当，加之近期各种琐碎事情太多，迟迟没有开始，学习不到位，导致写出来的代码还有很多错误没能排除。抱歉，总结起来就是我的确没有好好利用这五天，未能按时完成阶段六的考核。无论结果如何很感谢Geek教会我的东西。
